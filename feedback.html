@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        body{
+            background-color:blue;
+        }
+        label{
+            display: block;
+            margin-bottom: 2px;
+            font-size: bold;
+        }
+        input[type="submit"]{
+            background-color: #4caf50;
+            color: black;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        
+    </style>
+    
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <form >
+        <h1>FEEDBACK FORM</h1>
+        <label >firstname:-</label>
+        <input form="fname" type="text" required><br><br>
+        <label >lastname</label>
+        <input form="lname" type="text" required><br><br>
+        <label >email address</label>
+        <input form="email" type="email" required><br><br>
+        <label >date of birth</label>
+        <input form="DD-MM-YY" type="DD-MM-YY" required ><br><br>
+        <label >phonenumber:-</label>
+        <input form="phonenumber" type="number"><br><br>
+        <label >Gender:-</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">female</label><br>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">other</label><br><br>
+
+        <input type="submit">     
+
+
+
+
+
+
+    </form>
+</body>
+</html>
+<!-- camelcase is a conversion used in programming wher multiple words are joined together,and each word,except the first one,begins with a capital letter.it is commonly used  for naming variables,functions,and sometimes classes -->
